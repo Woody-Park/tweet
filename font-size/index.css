@@ -1,0 +1,30 @@
+html {
+    /* html의 기본 시스템 사이즈는 font-size:16px */ 
+     font-size: 12px;
+
+}
+
+.a {
+    font-size: 100px;
+    font-weight: bold;
+  }
+  
+ .b {
+    font-size: large;
+    font-weight: normal;
+  }
+  
+ .c {
+    font-size: 150%;
+    font-weight: 1000;
+  }
+
+  .d {
+    font-size: 1em;
+  }
+
+  .e {
+    font-size: 1.2rem;
+  }
+
+  /* 듣는 사람이 즐겁게 할 것 ..! 톤을 좀 밝게 할 것  */

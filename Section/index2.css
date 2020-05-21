@@ -1,0 +1,57 @@
+body {
+    /* 어떤 속성일까요? */
+    text-align: center;
+    color: #FFF;
+    width: auto;
+}
+
+#header{
+    width: 100%;
+    text-align: left;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+header, footer, nav, aside, section {
+    border: 1px solid #999;
+    margin: 5px;
+    padding: 10px;
+}
+
+header {
+    height: 50px;
+    background-color: red;
+}
+
+nav, section, aside {
+    float: left;
+    height: 200px;
+}
+
+nav {
+    background-color: green;
+    width: 20%;
+}
+
+section {
+    background-color: goldenrod;
+    width: 50%;
+}
+
+aside {
+    background-color: greenyellow;
+    width: 230px;
+}
+
+footer {
+    height: 50px;
+    background-color: indigo;
+    position: relative;
+    clear : both;
+}
+
+article {
+    width: 90%;
+    margin: 20px;
+    background-color: #999;
+}

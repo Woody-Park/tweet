@@ -1,0 +1,27 @@
+
+div{
+
+    border:5px solid blue;
+    border-radius: 10px;
+
+
+}   
+#test{
+    position: relative;
+}
+
+#second{
+    position: relative;
+    background-color: yellow;
+}
+
+
+#third {
+    background-color: greenyellow;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   
+}
+
+/* w3shcool */

@@ -1,0 +1,52 @@
+div {
+    background-color: yellow;
+    border: 2px solid red;
+
+    /* Todo: 질문: border를 기준으로 margin과 padding은 어떤 차이가 있을까요?? */
+
+    margin-bottom: 20px;
+    padding: 10px 30px;
+}
+/* todo: 모든 div에 적용이 될 것인데 이것을 박스랑 메시지 구분을 하고 싶을 때
+todo:    어떻게 해야 할까요?
+
+바뀐 것을 하나 더 준비 */
+
+/* div#box{
+    background-color: salmon;  
+} */
+
+
+
+/* todo: div 하나에 내용을 몰지 말것  */
+/* box 클래스의 자식 div를 설정해서 만들 것 주의   */
+
+p {
+    border: 2px solid yellow;
+}
+
+
+div p#p-text{
+    color:red;
+    font-size: xx-large;
+
+}
+
+div.box-shadow#box-1{
+    box-shadow: 5px 5px;
+}
+
+.box-shadow2{
+    box-shadow: 5px 5px 5px;
+}
+.box-shadow3{
+    box-shadow: 5px 5px 5px 5px;
+}
+.box-shadow4{
+    box-shadow: 5px 5px 5px 5px red;
+}
+.box-shadow5{
+    box-shadow: 5px 5px 5px 5px blue inset;
+}
+
+/* inset은?  */

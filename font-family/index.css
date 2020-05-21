@@ -1,0 +1,15 @@
+
+/* font-family : font | initial | inherit */
+
+
+p.a {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+ span.b {
+    font-family: Georgia, "맑은 고딕", serif; 
+  }
+
+  div.c{
+    font-family: 'Nanum Pen Script', cursive;
+  }

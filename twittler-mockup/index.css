@@ -1,0 +1,221 @@
+/* id : whole, title, input-box  area*/
+/* button */
+/* class : tweet */
+
+
+body {
+   border: 2px solid gainsboro;
+   margin: 50px;
+   padding: 50px;
+   background: #c94b4b;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+img.image-fixed{
+   width: 120px;
+   height: 120px;
+   object-fit: cover;
+   text-align: center;
+   border-radius: 70%;
+   overflow: hidden;
+   right: 0;
+   margin-right:20%;
+   position: fixed;
+}
+
+img.image-fixed#irene{
+   width: 120px;
+   height:120px;
+   object-fit: cover;
+   border-radius: 70%;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 20px;
+   float: right;
+}
+
+img.image-fixed#yeri{
+   width: 120px;
+   height:120px;
+   object-fit: cover;
+   border-radius: 70%;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 20px;
+   float: right;
+}
+
+img.image-fixed#joy{
+   width: 120px;
+   height:120px;
+   object-fit: cover;
+   border-radius: 70%;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 20px;
+   float: right;
+}
+
+
+/*? 웬디는 어디있을까요???? */
+div.tweet#wendy-box{
+   display: none;
+}
+
+img.image-fixed#wendy{
+   width: 120px;
+   height:120px;
+   object-fit: cover;
+   border-radius: 70%;
+   overflow: hidden;
+   position: absolute;
+   margin-top: 20px;
+   float: right;
+}
+
+/* ? visiblity와 display의 차이!! */
+/* div.tweet#yeri-box{
+   visibility: hidden;
+} */
+
+
+#fixed {
+   position: sticky;
+   top: 5px;
+   width: 100px;
+}
+
+#title {
+   border: 1px solid black;
+   text-align: center;
+   background-color: white;
+   font-family: 'Just Another Hand', cursive;
+}
+
+#input-box {
+   border: 2px solid gainsboro;
+   margin-top: 20px;
+ 
+   margin-bottom: 20px;
+   background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+   height: 200px;
+   text-align: center;
+   font-family: 'Jua', sans-serif;
+}
+
+#area {
+   border: 2px solid green;
+   /* top-left | top-right | bottom-right | bottom-left */
+    border-radius: 15px;
+    background-color: white;
+}
+
+.tweet{
+   height: 150px;
+   border: 2px solid brown;
+   margin: 10px;
+   padding-left: 10px;
+   font-family: 'Jua', sans-serif;
+   background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+/* ! 색상 바꾸는 건 어떻게? */
+
+/* .tweet p {
+   color: black;
+} */
+
+/* .tweet p.name{
+   color: green;
+   font-size: x-large;
+} */
+
+/** name 소개 같은 클래스 이름을 적용시키는 방법 
+
+/* .name{
+  
+} */
+
+
+.tweet1{
+   border: 2px solid red;
+   margin: 10px;
+   padding-left: 10px;
+   font-family: 'Jua', sans-serif;
+   background-color: yellow;
+   position: relative;
+   top: 0px;
+   left: 100px;
+}
+
+.tweet2{
+   border: 2px solid red;
+   margin: 10px;
+   padding-left: 10px;
+   font-family: 'Jua', sans-serif;
+   background-color: yellow;
+   position: relative;
+   top: 0px;
+   left: 200px;
+}
+
+/* 한번에 다 설명하기 위해서는 */
+/* 논리적인 구성이 필요하다. */
+
+button.button1 {
+ border-radius: 5px;
+ width: 100px;
+ height: 30px;
+ border : 5px solid green;
+ margin: 15px;
+ background-color: white;
+
+}
+
+
+/* ? 배경을 투명하게 하려면 어떻게 할까요?? */
+/* opacity 는 자식에게 모두 상속 되는 문제..ㅠㅠ */
+
+/* #footer{
+   height: 100px;
+   width: 300px;
+   opacity: 0.3;
+   background-color: white;
+   position: static;
+   border: 2px solid white;
+   margin-top: 30px;
+   margin-left: 30%; 
+ 
+}
+
+#footer p#copy-writter {
+   color: black;
+   font-weight: bold;
+   font-size: xx-large;
+   text-align: center;
+   z-index: 5;
+   position: static;
+} */
+
+
+
+
+#footer{
+height: 100px;
+   width: 300px;
+   background-color: rgba(255, 255, 255, 0.164);
+   position: static;
+   border: 2px solid white;
+   margin-top: 30px;
+   margin-left: 30%; 
+}
+
+#footer p#copy-writter {
+   color: yellow;
+   font-weight: bold;
+   font-size: xx-large;
+   text-align: center;
+   position: static;
+}  
